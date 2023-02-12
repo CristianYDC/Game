@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Memorock</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+</head>
+<body>
+    <section class="section1">
+            <button class="music" id="music">
+                <span class="material-symbols-outlined" style="color: aliceblue;">
+                    music_note
+                </span>
+            </button>
+            <h1 class="title">Memorock</h1>
+            <div class="tabla">
+                <table>
+                    <tr>
+                        <td><button class="btns" id="0" onclick="destapar(0)"></button></td>
+                        <td><button class="btns" id="1" onclick="destapar(1)"></button></td>
+                        <td><button class="btns" id="2" onclick="destapar(2)"></button></td>
+                        <td><button class="btns" id="3" onclick="destapar(3)"></button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btns" id="4" onclick="destapar(4)"></button></td>
+                        <td><button class="btns" id="5" onclick="destapar(5)"></button></td>
+                        <td><button class="btns" id="6" onclick="destapar(6)"></button></td>
+                        <td><button class="btns" id="7" onclick="destapar(7)"></button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btns" id="8" onclick="destapar(8)"></button></td>
+                        <td><button class="btns" id="9" onclick="destapar(9)"></button></td>
+                        <td><button class="btns" id="10" onclick="destapar(10)"></button></td>
+                        <td><button class="btns" id="11" onclick="destapar(11)"></button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btns" id="12" onclick="destapar(12)"></button></td>
+                        <td><button class="btns" id="13" onclick="destapar(13)"></button></td>
+                        <td><button class="btns" id="14" onclick="destapar(14)"></button></td>
+                        <td><button class="btns" id="15" onclick="destapar(15)"></button></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+    <section class="section2">
+        <h2 id="movimientos" class="estadisticas">Moviemientos: 0</h2>
+        <h2 id="t-restante" class="estadisticas">Tiempo: 40s</h2>
+        <h2 id="aciertos" class="estadisticas">Aciertos: 0</h2>
+        </section>
+    <footer>
+        <p>Juego hecho por 🤘| <a class="cristian" href="">Cristian Diaz</p>
+    </footer>
+    <script src='js/main.js'></script>
+</body>
+</html>
